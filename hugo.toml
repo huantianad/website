@@ -1,0 +1,5 @@
+baseURL = 'https://huantian.dev/'
+languageCode = 'en-us'
+title = 'huantian.dev'
+
+theme = "hugo-bearcub"

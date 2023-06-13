@@ -1,0 +1,8 @@
+# direnv
+.direnv
+
+# Dolphin directory config
+.directory
+
+public
+themes/hugo-bearcub

@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "hugo-bearcub": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682449642,
+        "narHash": "sha256-IM2qsmw+Of4NFeWI7Fcj9wpOpEGJsf7eBJxgP4h/WhI=",
+        "owner": "clente",
+        "repo": "hugo-bearcub",
+        "rev": "f26d122b2ad0cd3e3299de776b69e69d31486895",
+        "type": "github"
+      },
+      "original": {
+        "owner": "clente",
+        "repo": "hugo-bearcub",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1686582075,
+        "narHash": "sha256-vtflsfKkHtF8IduxDNtbme4cojiqvlvjp5QNYhvoHXc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "7e63eed145566cca98158613f3700515b4009ce3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "hugo-bearcub": "hugo-bearcub",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
