@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
     hugo-bearcub = {
-      url = "github:clente/hugo-bearcub";
+      url = "github:huantianad/hugo-bearcub";
       flake = false;
     };
   };

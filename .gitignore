@@ -1,8 +1,12 @@
-# direnv
+# direnv data
 .direnv
 
-# Dolphin directory config
+# dolphin directory config
 .directory
 
+# hugo generated folders
 public
+resources
+
+# created by nix
 themes/hugo-bearcub

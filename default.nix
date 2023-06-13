@@ -12,10 +12,17 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ hugo ];
 
-  buildPhase = ''
+  configurePhase = ''
     runHook preBuild
 
     ln -s ${hugo-bearcub} themes/hugo-bearcub
+
+    runHook postBuild
+  '';
+
+  buildPhase = ''
+    runHook preBuild
+
     hugo
 
     runHook postBuild

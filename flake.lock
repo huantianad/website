@@ -3,15 +3,15 @@
     "hugo-bearcub": {
       "flake": false,
       "locked": {
-        "lastModified": 1682449642,
-        "narHash": "sha256-IM2qsmw+Of4NFeWI7Fcj9wpOpEGJsf7eBJxgP4h/WhI=",
-        "owner": "clente",
+        "lastModified": 1686685371,
+        "narHash": "sha256-JN0095lofgoO+Zc1R3lgg+Ld1WkcWMxAejcPN8uP2wk=",
+        "owner": "huantianad",
         "repo": "hugo-bearcub",
-        "rev": "f26d122b2ad0cd3e3299de776b69e69d31486895",
+        "rev": "88d0c37b498298bd7f19a6662af17d3526715045",
         "type": "github"
       },
       "original": {
-        "owner": "clente",
+        "owner": "huantianad",
         "repo": "hugo-bearcub",
         "type": "github"
       }

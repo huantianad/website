@@ -8,7 +8,7 @@ charset = utf-8
 indent_style = space
 indent_size = 4
 
-[*.{nix,md}]
+[*.{nix,md,toml}]
 indent_size = 2
 
 [*.lock]
