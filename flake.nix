@@ -16,9 +16,6 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      packages.${system}.default =
-        pkgs.callPackage ./default.nix { inherit hugo-bearcub; };
-
       devShell.${system} = pkgs.mkShell {
         packages = [ pkgs.hugo ];
 
