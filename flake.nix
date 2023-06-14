@@ -24,7 +24,7 @@
           packages = [ pkgs.hugo ];
 
           shellHook = ''
-            ln -s ${hugo-bearcub} themes/hugo-bearcub
+            ln -sf ${hugo-bearcub} themes/hugo-bearcub
           '';
         }
       );
