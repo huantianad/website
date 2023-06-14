@@ -4,9 +4,10 @@
 # dolphin directory config
 .directory
 
-# hugo generated folders
-public
-resources
+# hugo generated files/directories
+public/
+resources/
+.hugo_build.lock
 
 # created by nix
 themes/hugo-bearcub
