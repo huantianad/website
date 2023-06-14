@@ -12,16 +12,21 @@
 
   outputs = { self, nixpkgs, hugo-bearcub }:
     let
-      system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
+      # (pkgs -> T) -> AttrSet[system: T]
+      forAllSystems = function:
+        nixpkgs.lib.genAttrs
+          [ "x86_64-linux" "aarch64-linux" ]
+          (system: function nixpkgs.legacyPackages.${system});
     in
     {
-      devShell.${system} = pkgs.mkShell {
-        packages = [ pkgs.hugo ];
+      devShell = forAllSystems (pkgs:
+        pkgs.mkShell {
+          packages = [ pkgs.hugo ];
 
-        shellHook = ''
-          ln -s ${hugo-bearcub} themes/hugo-bearcub
-        '';
-      };
+          shellHook = ''
+            ln -s ${hugo-bearcub} themes/hugo-bearcub
+          '';
+        }
+      );
     };
 }
