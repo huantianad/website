@@ -3,11 +3,11 @@
     "hugo-bearcub": {
       "flake": false,
       "locked": {
-        "lastModified": 1686854766,
-        "narHash": "sha256-ZL15omfapVN0M6OI1DqCLCYFZqn6uQ6tNaYp52XarHc=",
+        "lastModified": 1700877599,
+        "narHash": "sha256-7uhJpAGB/GVioWLlXBLS2jGxsrkUazryQTpcfqbuWg8=",
         "owner": "huantianad",
         "repo": "hugo-bearcub",
-        "rev": "7bdda069202c889798783cebc0711f9bdf131a0d",
+        "rev": "6edc955e86674a78e1353c154ed90ccbaa2c21c8",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1686767166,
-        "narHash": "sha256-zrdYWQc6KaTXSFTI9LBbnrJ/X7UKaYp2HEXl97tSSmU=",
+        "lastModified": 1700786208,
+        "narHash": "sha256-vP0WI7qNkg3teQJN5xjFcxgnBNiKCbkgw3X9HcAxWJY=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ff1cd885da89c8f27091d7cf45af95b97970170f",
+        "rev": "8b8c9407844599546393146bfac901290e0ab96b",
         "type": "github"
       },
       "original": {
