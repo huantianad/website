@@ -7,13 +7,13 @@ tags:
   - non-tech
 ---
 
-yk there's always something that drives me to look into people on like youtube that stop posting
+yk there's always something that drives me to look into people on like youtube that stop posting  
 i also feel something similar when people post their farewells when they're moving on to something else
 
-just something i was thinking about after km posted this https://youtu.be/-rHD0mKgS-c
+just something i was thinking about after km arrangements posted this https://youtu.be/-rHD0mKgS-c
 
-there's so many people online that perhaps I've talked to just in passing, or just follow from my end and have never interacted with, or maybe that I've talked to a lot
-i wish i could get to know all these people and not be socially awkward
-maybe it's enough to just say hi, but how will they know that i do care even if it means so little
+there's so many people online that perhaps I've talked to just in passing, or just follow from my end and have never interacted with, or maybe that I've talked to a lot  
+i wish i could get to know all these people and not be socially awkward  
+maybe it's enough to just say hi, but how will they know that i do care even if it means so little  
 
 to the person reading, i think about you sometimes, id love to talk to you about it
