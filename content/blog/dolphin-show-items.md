@@ -8,6 +8,8 @@ tags:
   - programming
 ---
 
+**EDIT**: Just as I post this, I figure out the issue! If you're an internet user finding this and have the same issue of Dolphin opening up a new instance when opening directories, the fix is actually just in the Dolphin settings, under Configure Dolphin > Interface > Folders & Tabs > Opening Folders > Keep a single Dolphin window, opening folders in new tabs. In hindsight, this should've been clear to me, but I'm glad I found it now.
+
 Just wanted to write a blog post about a bug I found in Dolphin quite a while ago, which I've reported here: https://bugs.kde.org/show_bug.cgi?id=448188.
 
 A common action that applications might want to do is to open up a folder in whatever file manager you happen to use. This can be used to show you where, say, a file you just downloaded is, or where exactly the file you're editing in your text editor is. Often times, for these tasks, it's benificial to actually open up that folder and select exactly the file you want the user to pay attention to. That's exactly what the `ShowItems` method in the `org.freedesktop.FileManager1` DBus interface is for!
