@@ -5,6 +5,7 @@ date: 2024-03-12T23:32:22-07:00
 tags:
   - musings
   - non-tech
+draft: true
 ---
 
 yk there's always something that drives me to look into people on like youtube that stop posting  
