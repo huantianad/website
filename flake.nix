@@ -10,23 +10,26 @@
     };
   };
 
-  outputs = { self, nixpkgs, hugo-bearcub }:
-    let
-      # (pkgs -> T) -> AttrSet[system: T]
-      forAllSystems = function:
-        nixpkgs.lib.genAttrs
-          [ "x86_64-linux" "aarch64-linux" ]
-          (system: function nixpkgs.legacyPackages.${system});
-    in
-    {
-      devShell = forAllSystems (pkgs:
+  outputs = {
+    self,
+    nixpkgs,
+    hugo-bearcub,
+  }: let
+    # (pkgs -> T) -> AttrSet[system: T]
+    forAllSystems = function:
+      nixpkgs.lib.genAttrs
+      ["x86_64-linux" "aarch64-linux"]
+      (system: function nixpkgs.legacyPackages.${system});
+  in {
+    devShell = forAllSystems (
+      pkgs:
         pkgs.mkShell {
-          packages = [ pkgs.hugo ];
+          packages = [pkgs.hugo];
 
           shellHook = ''
             ln -sfT ${hugo-bearcub} themes/hugo-bearcub
           '';
         }
-      );
-    };
+    );
+  };
 }
