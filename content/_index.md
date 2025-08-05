@@ -26,10 +26,11 @@ Currently working at [7th Beat Games](https://7thbea.t) on [Rhythm Doctor](https
 TODO: put some more project links here!
 
 #### Next Generation Music Game
-My current game interests happen to land on rhythm games, my favorites are Rhythm Doctor on PC, maimai in arcade. I'll definitely play other games, currently trying to get into SDVX and playing a bunch of Project Sekai on mobile. Playing Phigros, vivid/stasis on and off, definitely not a full list of games.
+My current game interests happen to land on rhythm games, my favorites are Rhythm Doctor on PC, maimai in arcade, SDVX at home with iidx and pop'n music incoming! I love every rhythm game though, so if you're a fan of an obscure game, I would love to learn more about it!. Playing Project Sekai, Phigros, vivid/stasis on and off, definitely not a full list of games.
 
 You may also see me playing automation games as well as modded Minecraft, assuming I have the time and accidentally got addicted.
 
-#### Under Construction
-Writing about oneself is so difficult sometimes, so for now this is all there is. Definitely let me know if you think there should be more.
+#### Linky linky
 
+[![huantian.dev 88x31](images/8831/huantian.gif)](https://huantian.dev)
+[![umbresp.cat 88x31](images/8831/umbresp.gif)](https://umbresp.cat)
